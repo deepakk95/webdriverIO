@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have title containing\n                \n                Expected: \"The Innternet\"\n                Received: \"The Internet\"",
+      "children" : [ {
+        "name" : "Login Fail - Smoke",
+        "uid" : "d74e47f52364b501",
+        "parentUid" : "9c922aad03df335d2aa075f16b1b0187",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625642522160,
+          "stop" : 1625642567334,
+          "duration" : 45174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.114" ]
+      } ],
+      "uid" : "9c922aad03df335d2aa075f16b1b0187"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

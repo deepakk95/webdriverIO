@@ -1,0 +1,257 @@
+{
+  "uid" : "57b961c9187f3099",
+  "name" : "Handling Frames Switch",
+  "fullName" : "Windows and Frames.Handling Frames Switch",
+  "historyId" : "5ffff023d2c79b6c2f43a8706c3dea8b",
+  "time" : {
+    "start" : 1625642362154,
+    "stop" : 1625642364401,
+    "duration" : 2247
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=91.0.4472.114)",
+  "statusTrace" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (/Users/olx/webdriverIO/test/specs/windowFrames.js:42:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=91.0.4472.114)",
+    "statusTrace" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (/Users/olx/webdriverIO/test/specs/windowFrames.js:42:17)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625642362154,
+        "stop" : 1625642363964,
+        "duration" : 1810
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window",
+        "time" : {
+          "start" : 1625642363522,
+          "stop" : 1625642363851,
+          "duration" : 329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "89a7642bb09b63a8",
+          "name" : "Request",
+          "source" : "89a7642bb09b63a8.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1625642363851,
+          "stop" : 1625642363854,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1301b8d1e9a8e0ed",
+          "name" : "Request",
+          "source" : "1301b8d1e9a8e0ed.json",
+          "type" : "application/json",
+          "size" : 45
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/title",
+        "time" : {
+          "start" : 1625642363854,
+          "stop" : 1625642363873,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b02bb8ac539d4482",
+          "name" : "Response",
+          "source" : "b02bb8ac539d4482.json",
+          "type" : "application/json",
+          "size" : 9011
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1625642363933,
+          "stop" : 1625642363939,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "84bbd5d57f81489f",
+          "name" : "Request",
+          "source" : "84bbd5d57f81489f.json",
+          "type" : "application/json",
+          "size" : 45
+        }, {
+          "uid" : "19a18f70dc861148",
+          "name" : "Response",
+          "source" : "19a18f70dc861148.json",
+          "type" : "application/json",
+          "size" : 33
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2dc57a2de0cfb08",
+        "name" : "Request",
+        "source" : "2dc57a2de0cfb08.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "b66dc2309fceb947",
+        "name" : "Response",
+        "source" : "b66dc2309fceb947.json",
+        "type" : "application/json",
+        "size" : 9011
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625642364031,
+        "stop" : 1625642364040,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb0a68dcdb40b8a8",
+        "name" : "Request",
+        "source" : "bb0a68dcdb40b8a8.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "aea6cd4871f24e53",
+        "name" : "Response",
+        "source" : "aea6cd4871f24e53.json",
+        "type" : "application/json",
+        "size" : 1868
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1625642364042,
+        "stop" : 1625642364400,
+        "duration" : 358
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=91.0.4472.114)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (/Users/olx/webdriverIO/test/specs/windowFrames.js:42:17)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1625642364052,
+          "stop" : 1625642364400,
+          "duration" : 348
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6d1b5c3b6e4faf8",
+          "name" : "Screenshot",
+          "source" : "6d1b5c3b6e4faf8.png",
+          "type" : "image/png",
+          "size" : 445802
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "40fb60649de852bd",
+        "name" : "Request",
+        "source" : "40fb60649de852bd.json",
+        "type" : "application/json",
+        "size" : 5554
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Windows and Frames"
+  }, {
+    "name" : "testClass",
+    "value" : "Windows and Frames"
+  }, {
+    "name" : "testMethod",
+    "value" : "Handling Frames Switch"
+  }, {
+    "name" : "package",
+    "value" : "Windows and Frames"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57b961c9187f3099.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

@@ -1,0 +1,8 @@
+{
+  "script": "return (function newWindow(url, windowName, windowFeatures) {\n    window.open(url, windowName || 'new window', windowFeatures || '');\n}).apply(null, arguments)",
+  "args": [
+    "https://www.selenium.dev/",
+    "New Window",
+    ""
+  ]
+}

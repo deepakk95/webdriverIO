@@ -1,0 +1,216 @@
+{
+  "uid" : "d54b4016147c0153",
+  "name" : "Radio Button",
+  "fullName" : "Ui Controls.Radio Button",
+  "historyId" : "3cea423e9780908d932fc877ef45acbd",
+  "time" : {
+    "start" : 1625640447277,
+    "stop" : 1625640454076,
+    "duration" : 6799
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625640447279,
+        "stop" : 1625640450958,
+        "duration" : 3679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf6a9f3289d5337b",
+        "name" : "Request",
+        "source" : "cf6a9f3289d5337b.json",
+        "type" : "application/json",
+        "size" : 68
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625640450960,
+        "stop" : 1625640450972,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9045eae3f5c5aa8",
+        "name" : "Request",
+        "source" : "b9045eae3f5c5aa8.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "dc26eb69675e8db8",
+        "name" : "Response",
+        "source" : "dc26eb69675e8db8.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/7531eb50-f53a-4988-bd5d-4cd24134c1aa/click",
+      "time" : {
+        "start" : 1625640450978,
+        "stop" : 1625640451010,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/7531eb50-f53a-4988-bd5d-4cd24134c1aa/selected",
+      "time" : {
+        "start" : 1625640454013,
+        "stop" : 1625640454026,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6723f152dd7fc8a2",
+        "name" : "Response",
+        "source" : "6723f152dd7fc8a2.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/7531eb50-f53a-4988-bd5d-4cd24134c1aa/selected",
+      "time" : {
+        "start" : 1625640454028,
+        "stop" : 1625640454034,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71451cfcc4e83c9e",
+        "name" : "Response",
+        "source" : "71451cfcc4e83c9e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2d29af14-aefb-48f6-adbf-4e084bb9f793/click",
+      "time" : {
+        "start" : 1625640454036,
+        "stop" : 1625640454066,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/7531eb50-f53a-4988-bd5d-4cd24134c1aa/selected",
+      "time" : {
+        "start" : 1625640454066,
+        "stop" : 1625640454071,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/7531eb50-f53a-4988-bd5d-4cd24134c1aa/selected",
+      "time" : {
+        "start" : 1625640454071,
+        "stop" : 1625640454075,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Ui Controls"
+  }, {
+    "name" : "testClass",
+    "value" : "Ui Controls"
+  }, {
+    "name" : "testMethod",
+    "value" : "Radio Button"
+  }, {
+    "name" : "package",
+    "value" : "Ui Controls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d54b4016147c0153.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

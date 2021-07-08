@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "tr td:nth-child(1)"
+}

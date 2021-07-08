@@ -1,0 +1,150 @@
+{
+  "uid" : "32a1d5f3194afa76",
+  "name" : "Scroll to particular element View",
+  "fullName" : "Functional Scenarios.Scroll to particular element View",
+  "historyId" : "53d837a6ea0fb1a897d33195143b4fd4",
+  "time" : {
+    "start" : 1625642305462,
+    "stop" : 1625642318932,
+    "duration" : 13470
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625642305463,
+        "stop" : 1625642312708,
+        "duration" : 7245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1484c454f15b5f66",
+        "name" : "Request",
+        "source" : "1484c454f15b5f66.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625642312708,
+        "stop" : 1625642312720,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbbfccd0164686c7",
+        "name" : "Request",
+        "source" : "fbbfccd0164686c7.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "74c9503faca00334",
+        "name" : "Response",
+        "source" : "74c9503faca00334.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1625642312723,
+        "stop" : 1625642312736,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7715735976829866",
+        "name" : "Request",
+        "source" : "7715735976829866.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/e69f0482-1065-41e3-bff5-a7741d2bd1bc/click",
+      "time" : {
+        "start" : 1625642315738,
+        "stop" : 1625642315928,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Functional Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional Scenarios"
+  }, {
+    "name" : "testMethod",
+    "value" : "Scroll to particular element View"
+  }, {
+    "name" : "package",
+    "value" : "Functional Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32a1d5f3194afa76.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

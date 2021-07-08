@@ -1,0 +1,4 @@
+{
+  "script": "return (function () {\n        return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };\n    }).apply(null, arguments)",
+  "args": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "webdriverIO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "controlandframesTests": "npx wdio run wdio.conf.js --suite uicontrolandframes",
+    "qaregression": "npx wdio run wdio.conf.js",
+    "generateAllureReport": "allure generate allure-results --clean && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.7.3",
+    "@wdio/cli": "^7.7.4",
+    "@wdio/local-runner": "^7.7.4",
+    "@wdio/mocha-framework": "^7.7.4",
+    "@wdio/spec-reporter": "^7.7.3",
+    "@wdio/sync": "7.7.4",
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.3.4",
+    "chromedriver": "^91.0.1",
+    "install": "^0.13.0",
+    "wdio-chromedriver-service": "^7.1.1"
+  }
+}
