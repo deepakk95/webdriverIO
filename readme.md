@@ -12,15 +12,15 @@ __Steps to setup:__
 
 `In package.json add dependency of @wdio/sync -> "@wdio/sync": "7.7.4" and execute npm install.`
 
-Test cases are written in Spec File.
-Inside the spec file, we have describe block ( describe block acts as Test Suite ).
-Within describe block we have “it” block ( it block represents test case ).
-Within one test suite, we can define multiple describe blocks and within one describe block we can define multiple it blocks.
+Test cases are written in Spec File.  
+Inside the spec file, we have describe block ( describe block acts as Test Suite ).  
+Within describe block we have “it” block ( it block represents test case ).  
+Within one test suite, we can define multiple describe blocks and within one describe block we can define multiple it blocks.  
 
 Remove the existing dummy specs added in specs folder under test folder.
 
-Create a new file jsconfig.json in root directory so that we can use autocomplete feature in vscode. ( Link -> https://webdriver.io/docs/autocompletion/ )
-Add the following code to jsconfig.json file.
+Create a new file jsconfig.json in root directory so that we can use autocomplete feature in vscode. ( Link -> https://webdriver.io/docs/autocompletion/ ). 
+Add the following code to jsconfig.json file.  
 ``` {
       "compilerOptions": {
           "types": [
@@ -39,12 +39,12 @@ Add the following code to jsconfig.json file.
     
 ```
 
-To run our first test case, we have to use config file which we created.
-Command to run config file -> npx wdio run configuration_file_name ( In our case it will be “npx wdio run wdio.conf.js” )
+To run our first test case, we have to use config file which we created.  
+Command to run config file -> npx wdio run configuration_file_name ( In our case it will be “npx wdio run wdio.conf.js” ). 
 
 To remove info level logs, change “logLevel” in wdio.conf.js from “info” to “silent”. Then we only get logs what our test case directs.
 
-—————————————————————
+—————————————————————--------
 Locators
 WebDriverIO supports xpath, css, linkText
 
