@@ -166,7 +166,7 @@ The above command is given after the execution is completed.
 Official Docs -> https://webdriver.io/docs/allure-reporter/
 
 --------------------------------  
-__Configuring webdriverIO with Jenkins__
+__Configuring webdriverIO with Jenkins__  
 We can configure our project with Jenkins by creating a job and using execute shell command in Build Actions.  
 We can use “This project is parameterised” and provide name as “parameter_name” and multiple choices like “smoke”, “regression”.  
 Now command used in shell script will be npm run “$parameter_name”.  
