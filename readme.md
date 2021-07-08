@@ -172,12 +172,12 @@ We can use “This project is parameterised” and provide name as “parameter_
 Now command used in shell script will be npm run “$parameter_name”.  
 Now we will get the option for this job to “Run with Parameters” and we can select the parameter while executing job at runtime.  
 
-Official Doc for installing and configuring Allure Jenkins Plugin:
+Official Doc for installing and configuring Allure Jenkins Plugin:  
 https://webdriver.io/docs/allure-reporter/ & https://docs.qameta.io/allure/#_jenkins  
 
 Install Allure Jenkins Plugin from Plugin Manager.  
 Navigate to Global Tool Configuration and click on Allure Commandline Installations.  
-Click on add installer and select “zip/tar.gz” and we have to provide binary archive file of allure:  
+Click on add installer and select “zip/tar.gz” and we have to provide binary archive file of allure:    
 https://github.com/allure-framework/allure2/releases  
 Copy the “download” link from the above url and paste it in “Download URL for binary archive” and Save.  
 
