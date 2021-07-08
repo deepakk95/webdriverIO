@@ -113,6 +113,7 @@ We can merge the parent config file with the child config file that we create. T
 
 --------------------------------  
 __Retry in WebdriverIO__
+------------ 
 How to apply __retry mechanism__ for Flaky Tests with webdriverio config?
 
 For retry, we have to write “this.retries(x)” where x is any integer value. x would specify the test to only retry “x” number of times.
@@ -134,7 +135,8 @@ Similarly we can something like “QARegression”:”npx wdio run wdio.conf.js�
 make use of “npm run QARegression” to run all regression specs.
 
 --------------------------------  
-__Reporting__
+__Reporting__ 
+------------ 
 __Allure__ is one the package which will help to generate reports. We have to install allure report package.  
 Command -> “npm install @wdio/allure-reporter --save-dev”.  
 Once it’s installed we have to set one configuration in config.js file.  
@@ -167,6 +169,7 @@ Official Docs -> https://webdriver.io/docs/allure-reporter/
 
 --------------------------------  
 __Configuring webdriverIO with Jenkins__  
+------------ 
 We can configure our project with Jenkins by creating a job and using execute shell command in Build Actions.  
 We can use “This project is parameterised” and provide name as “parameter_name” and multiple choices like “smoke”, “regression”.  
 Now command used in shell script will be npm run “$parameter_name”.  
