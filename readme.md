@@ -6,7 +6,7 @@ __Steps to setup:__
 1. Install node.js in the system.  
 2. Create a new folder open it in any editor ( Ex. Vs code ).  
 3. Enter the following commands in terminal:
-“npm i --save-dev install @wdio/cli” &nbsp; &nbsp;&nbsp;&nbsp;// to get webdriverio dependency.  
+“npm i --save-dev install @wdio/cli”     &nbsp;&nbsp;// to get webdriverio dependency.  
 “npx wdio config -y”               &nbsp; &nbsp;&nbsp;&nbsp; // Create a new configuration file to run test cases from test runner.  
                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // npx search for executable file in node_modules folder.
 
