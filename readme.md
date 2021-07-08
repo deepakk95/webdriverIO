@@ -6,9 +6,9 @@ __Steps to setup:__
 1. Install node.js in the system.  
 2. Create a new folder open it in any editor ( Ex. Vs code ).  
 3. Enter the following commands in terminal:
-“npm i --save-dev install @wdio/cli” // to get webdriverio dependency.  
-“npx wdio config -y”                 // Create a new configuration file to run test cases from test runner.  
-                                    // npx search for executable file in node_modules folder.
+“npm i --save-dev install @wdio/cli” &nbsp; // to get webdriverio dependency.  
+“npx wdio config -y”               &nbsp;  // Create a new configuration file to run test cases from test runner.  
+                                   &nbsp;&nbsp;&nbsp; // npx search for executable file in node_modules folder.
 
 In package.json add dependency of @wdio/sync -> "@wdio/sync": "7.7.4" and execute npm install.
 
