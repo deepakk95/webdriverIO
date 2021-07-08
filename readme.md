@@ -10,7 +10,7 @@ __Steps to setup:__
 “npx wdio config -y”               &nbsp; &nbsp;&nbsp;&nbsp; // Create a new configuration file to run test cases from test runner.  
 // npx search for executable file in node_modules folder.
 
-In package.json add dependency of @wdio/sync -> "@wdio/sync": "7.7.4" and execute npm install.
+`In package.json add dependency of @wdio/sync -> "@wdio/sync": "7.7.4" and execute npm install.`
 
 Test cases are written in Spec File.
 Inside the spec file, we have describe block ( describe block acts as Test Suite ).
