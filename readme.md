@@ -1,7 +1,7 @@
 WebDriverIO
 ------------  
 
-Steps to setup:
+__Steps to setup:__
 
 Install node.js in the system.
 Create a new folder open it in any editor ( Ex. Vs code ).
